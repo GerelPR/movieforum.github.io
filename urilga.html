@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: alpha;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+}
+div {
+    font-size: 15px;
+    text-shadow: 0 0 10px;
+    padding: 20px;
+    margin: 10px;
+}
+.tom{
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.jijig{
+    font-size: 10px;
+}
+p{
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+@font-face {
+  font-family: alpha;
+  src: url(alpha.ttf);
+}
+    </style>
+</head>
+<body>
+    <div class="tom">
+        <p>Erhem hundet Huurhun Anarzul taniig mathiin bagsh bi beer nadtai hamt kino uzeche hemeen urij baina</p>
+        
+    </div>
+    <div class="jijig">more from: gerel_saihan</div>
+    <script src="confetti.js"></script>
+    <script>
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); 
+        };
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); 
+        };
+
+        start();
+        stop();
+    </script>
+    
+</body>
+</html>

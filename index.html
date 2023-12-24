@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Forum</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="move"></div>
+        <div class="mov1"></div>
+        <p>enehuu towchluur deer forumaa buglusnii daraa butsaj darna uu</p>
+        <button class="urilga" onclick="urilga()">Urilga!!</button>
+        <h1>Kino Forum</h1>
+        <form id="postForm" action="https://formsubmit.co/f9f65d1217f797c45c51d5b695d96ec2" method="POST">
+            <label for="postTitle">Xuurxunuu neree:</label>
+            <input type="text" id="postTitle" name="name" required>
+            <fieldset class="songolt">
+                <legend>Select Movie Genres:</legend>
+                <label for="action"><input type="checkbox" id="action" name="action" value="action"> Action</label>
+                <label for="comedy"><input type="checkbox" id="comedy" name="comedy" value="comedy"> Comedy</label>
+                <label for="drama"><input type="checkbox" id="drama" name="drama" value="drama"> Drama</label>
+                <label for="sci-fi"><input type="checkbox" id="sci-fi" name="sci-fi" value="sci-fi"> Science Fiction</label>
+                <label for="horror"><input type="checkbox" id="horror" name="horror" value="horror"> Horror</label>
+                <label for="romance"><input type="checkbox" id="romance" name="romance" value="romance"> Romance</label>
+                <!-- Add more genres as needed -->
+            </fieldset>
+            <label for="incinema">Kino teatrd garj bga uzeh sonirholtoi kino bii yu bga bol bichne uu:</label>
+            <input id="incinema" name="incinema" required></input>
+            <label for="wanttowatch">Uzehig husej bui kino(kino teatrd garagu bga huuchnii):</label>
+            <input id="wanttowatch" name="wanttowatch" required></input>
+            <label for="favmovie">Durtai kino:</label>
+            <input id="favmovie" name="favmovie" required></input>
+            <label for="genre">Oirdo uzmer bga kinoni genre jishee ni shine jilin gedeg ch ymu:</label>
+            <div>
+                <input id="genre" name="genre" required></input>
+            </div>
+
+            <div>
+            <button type="submit" onclick="" class="urilga">SEND</button>
+            </div>
+            
+
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
